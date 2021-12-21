@@ -17,5 +17,9 @@ Enter the height: 3
 *******
 
 """
+n = int(input("Enter the base: "))
+g = int(input("Enter the height: "))
+f = "*" * n
+for i in range(1, g+1):
+  print(f)
 
-#write your code here 
